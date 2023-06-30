@@ -1,0 +1,21 @@
+redis:
+  replicaCount: 1
+  image:
+    repository: redis
+    tag: alpine
+  service:
+    port: 6379
+    targetPort: 6379
+    protocol: TCP
+
+web:
+  replicaCount: 1
+  image:
+    repository: avinash263/pyredis263
+    tag: latest
+  service:
+    port: 80
+    targetPort: 5000
+    protocol: TCP
+    type: NodePort
+
