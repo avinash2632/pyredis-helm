@@ -1,3 +1,13 @@
 apiVersion: v1
-entries: {}
-generated: "2023-06-30T21:19:20.673328304+05:30"
+entries:
+  pyredis:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: 2023-06-30T21:19:20.673328304+05:30
+    description: A Helm chart for your application
+    digest: "sha256:1b251d38cfe948dfc0a5745b7af5ca574ecb61e52aed10b19039db39af6e1617"
+    name: pyredis
+    urls:
+    - https://avinash2632.github.io/pyredis-helm/pyredis-0.1.0.tgz
+    version: 0.1.0
+generated: 2023-06-30T21:19:20.673328304+05:30
